@@ -1,0 +1,33 @@
+#home{
+    position:absolute;
+    top:-15%;
+    left:85%;
+    height:45px;
+    width:45px;
+    opacity:0.6;
+}
+#home:hover{
+    opacity:1;
+}
+#profile{
+    position:absolute;
+    top:2%;
+    left:89%;
+    height:35px;
+    width:35px;
+    opacity:0.6;
+}
+#profile:hover{
+    opacity:1;
+}
+#logout{
+    position:absolute;
+    top:2%;
+    left:92.7%;
+    height:35px;
+    width:35px;
+    opacity:0.6;
+}
+#logout:hover{
+    opacity:1;
+}

@@ -1,0 +1,22 @@
+#picture_perfect
+{
+    position:absolute;
+    top:28%;
+    left:105px;
+    -moz-box-shadow: 5px 5px 5px #ccc;
+    -webkit-box-shadow: 5px 5px 5px #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+}
+#photo_heading
+{
+    position:absolute;
+    top:7%;
+    width:100%;
+}
+#upload_new_pics
+{
+    position:absolute;
+    top:8%;
+    left:85%;
+    
+}

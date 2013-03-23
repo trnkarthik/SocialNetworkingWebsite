@@ -1,0 +1,308 @@
+/*Globals and predefined tags*/
+
+a{
+    color:black;
+}
+a:link{
+    text-decoration:none;
+    color:black;
+}
+a:visited{
+    color:black;
+}
+
+
+/*classes*/
+
+.profile_options{
+   position:relative;
+   width:100%;
+   height:20%;
+}
+.profile_options:hover{
+   background:#EEF8FC;
+   width:100%;
+   -moz-box-shadow: 2px 2px 2px #ccc;
+    -webkit-box-shadow: 2px 2px 2px #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.profile_options_img{
+   position:absolute;
+   top:0px;
+   left:20px;
+   width:25px;
+   height:25px;
+}
+
+/* Ids */
+
+#sidebar_left{
+    position:absolute;
+    top:13%;
+    left:0%;
+    width:15%;
+    height:87%;
+    border-right:1px solid;
+    border-right-color:#ccc;
+
+}
+#sidebar_left_toppers{
+    position:absolute;
+    top:10px;
+    left:0%;
+    width:100%;
+    height:30%;
+    color:red;
+}
+#your_tricks{
+    position:absolute;
+    top:27%;
+    left:0%;
+    width:100%;
+    height:73%;
+
+}
+#your_tricks_title{
+    width:100%;
+    height:6%;
+    background:#22487A;
+    -moz-box-shadow: 2px 2px 2px #ccc;
+    -webkit-box-shadow: 2px 2px 2px #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+    color:white;
+    font-weight:bold;
+}
+#sidebar_right{
+    position:absolute;
+    top:13%;
+    left:80%;
+    width:20%;
+    height:87%;
+    border-left:1px solid;
+    border-left-color:#ccc;
+}
+#sidebar_right_title{
+    width:100%;
+    height:4%;
+    background:#22487A;
+    -moz-box-shadow: 2px 2px 2px #ccc;
+    -webkit-box-shadow: 2px 2px 2px #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+    color:white;
+    font-weight:bold;
+}
+#top_bar{
+    position:absolute;
+    top:6%;
+    left:0%;
+    background:#EEF8FC;
+    width:100%;
+    height:7%;
+    border:1px solid #ccc;
+    -moz-box-shadow: 2px 2px 2px #ccc;
+    -webkit-box-shadow: 2px 2px 2px #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.top_bar_menu{
+    border:1px solid #ccc;
+    -moz-box-shadow: 5px 5px 5px #ccc;
+    -webkit-box-shadow: 5px 5px 5px #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+#top_bar_menu_item1{
+    position:absolute;
+    left:5%;
+    top:15%;
+    background:#22487A;
+    color:white;
+    padding:3px;
+}
+#top_bar_menu_item2{
+    position:absolute;
+    left:11%;
+    top:15%;
+    background:#22487A;
+    color:white;
+    padding:3px;
+}
+#top_bar_menu_item3{
+    position:absolute;
+    left:19.5%;
+    top:15%;
+    background:#22487A;
+    color:white;
+    padding:3px;
+}
+
+#top_bar_search{
+    position:absolute;
+    top:25%;
+    left:70%;
+}
+#search_area{
+    position:absolute;
+    top:13%;
+    left:15%;
+    width:65%;
+    height:18%;
+    border-bottom:1px solid #ccc;
+}
+#trick_area{
+    position:absolute;
+    top:28%;
+    left:15%;
+    width:65%;
+    height:72%;
+    background:;
+}
+#trick_body{
+    position:absolute;
+    top:8%;
+    left:15%;
+    width:70%;
+    height:84%;
+    background:#EEF8FC;
+    border:1px solid #ccc;
+    -moz-box-shadow: 2px 2px 2px #ccc;
+    -webkit-box-shadow: 2px 2px 2px #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+}
+#trick_help{
+    position:absolute;
+    top:1%;
+    left:96%;
+    width:18px;
+    height:18px;
+    color:white;
+    background:#22487A;
+    -moz-box-shadow: 3px 3px 3px black;
+    -webkit-box-shadow: 3px 3px 3px black;
+    box-shadow: 3px 3px 3px black;
+}
+#trick_help:active{
+    top:0%;
+    left:96.5%;
+    color:white;
+    background:#22487A;
+    -moz-box-shadow: 2px 2px 2px black;
+    -webkit-box-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px black;
+}
+#trick_help_hidden{
+    position:absolute;
+    top:5.5%;
+    left:80%;
+    width:35%;
+    height:20%;
+    color:white;
+    background:white;
+    border:1px solid #ccc;
+    -moz-box-shadow: 3px 3px 3px #ccc;
+    -webkit-box-shadow: 3px 3px 3px #ccc;
+    box-shadow: 3px 3px 3px #ccc;
+    z-index:10;
+}
+#trick_help_hidden:hover{
+    position:absolute;
+    top:6.5%;
+    left:80%;
+    width:35%;
+    height:20%;
+    color:white;
+    background:white;
+    border:1px solid #ccc;
+    -moz-box-shadow: 3px 3px 3px #ccc;
+    -webkit-box-shadow: 3px 3px 3px #ccc;
+    box-shadow: 3px 3px 3px #ccc;
+    visibility:visible;
+}
+
+#app_heart{
+    position:absolute;
+    top:8%;
+    left:10%;
+}
+#search_box{
+    position:absolute;
+    top:13%;
+    left:25%;
+    width:65%;
+    height:20%;
+}
+#submit_button{
+        
+        border: 1px solid #ccc;
+        color: white;
+        width:80px;
+        height:25px;
+        text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+        background-color: #22487A;
+        -moz-box-shadow: 0px 5px 5px #ccc;
+        -webkit-box-shadow: 0px 5px 5px #ccc;
+        box-shadow: 0px 5px 5px #ccc;
+        }
+#submit_button:hover{
+        -moz-box-shadow: 0px 2px 2px #ccc;
+        -webkit-box-shadow: 0px 2px 2px #ccc;
+        box-shadow: 0px 2px 2px #ccc;
+        }
+        
+#tricker_me{
+    position:relative;
+    top:8px;
+    left:2px;
+    width:95%;
+    background:#EEF8FC;
+    border:1px solid #ccc;
+    -moz-box-shadow: 2px 2px 2px #ccc;
+    -webkit-box-shadow: 2px 2px 2px #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+    padding-top:5px;
+    color:black;
+    text-decoration:none;
+}
+#tricker_me:hover{
+    background:#22487A;
+    color:white;
+}
+
+#tricker_other{
+    position:relative;
+    top:8px;
+    left:2px;
+    width:95%;
+    background:#EEF8FC;
+    border:1px solid #ccc;
+    -moz-box-shadow: 2px 2px 2px #ccc;
+    -webkit-box-shadow: 2px 2px 2px #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+    padding-top:5px;
+}
+#tricker_other:hover{
+    background:red;
+}
+#more_pic{
+    position:absolute;
+    top:50%;
+    left:85%;
+}
+
+/* used only in my_tricks file*/
+
+#show_my_tricks{
+    position:absolute;
+    top:13%;
+    left:15.25%;
+    width:64.5%;
+    height:87%;
+    overflow:scroll;
+}
+#trick_search_results_area{
+    position:absolute;
+    top:33%;
+    left:15.25%;
+    width:64.5%;
+    height:67%;
+    overflow:scroll;
+}
